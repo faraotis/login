@@ -4,10 +4,115 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
     --verde: #49a09d;
     --lilas: #5f2c82;
+}
+
+body {
+    background-color: var(--lilas);
+}
+
+main { 
+    position: relative;
+    height: 100vh;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 260px;
+    border-radius: 20px;
+    padding: 10px 10px 30px 10px;
+}
+
+#imagem {
+    width: 260px;
+    height: 220px;
+    transform: translate(-10px, -10px);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: white url(../imagens/semaforo.jpg) center no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.8em;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+#input-div {
+    display: flex;
+    background-color: var(--lilas);
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+#input-div > input {
+    background-color: #94CFCD;
+    transform: translate(3px, 2px);
+    width: calc(100% - 42px);
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 5px;
+}
+
+#input-div > input:focus {
+    background-color: white;
+}
+
+#input-div i {
+    color: white;
+    font-size: 2em;
+    padding: 5px 0px 0px 5px;
+}
+
+#input-submit {
+    background-color: var(--verde);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+#input-submit:hover {
+    background-color: #2D6462;
+}
+
+#a-esq-sen {
+    font-size: 0.9em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 8px;
+    padding: 11px;
+    border: 1px solid var(--verde);
+    color: #295b59;
+}
+
+#a-esq-sen i {
+    font-size: 0.9em;
+}
+
+#a-esq-sen:hover {
+    background-color: #6CD3CF;
 }
