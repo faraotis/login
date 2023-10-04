@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
