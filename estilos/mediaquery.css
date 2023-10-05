@@ -13,12 +13,16 @@
     #login {
         flex-direction: row;
         width: 90vw;
-        height: 281px;
+        height: 300px;
     }
 
     #imagem {
         width: 320px;
-        height: 281px;
+        height: 300px;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
 
@@ -33,8 +37,7 @@
     }
 
     p {
-        font-size: 0.9em;
-        padding-bottom: 10px;
+        font-size: 1.1em;
     }
 
     #login {
