@@ -87,7 +87,7 @@ p {
     padding: 5px 0px 0px 5px;
 }
 
-#input-submit {
+form > input[type=submit] {
     background-color: var(--verde);
     color: white;
     width: 100%;
@@ -95,9 +95,10 @@ p {
     border-radius: 8px;
     border: none;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
-#input-submit:hover {
+form > input[type=submit]:hover {
     background-color: #2D6462;
 }
 
