@@ -5,7 +5,7 @@
     --lilas: #5f2c82;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--lilas), var(--verde));
     }
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--lilas), var(--verde));
     }
