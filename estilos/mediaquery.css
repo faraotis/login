@@ -19,16 +19,6 @@
     #imagem {
         width: 320px;
         height: 281px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 20px;
-    }
-
-    #input-div > input {
-        height: 40px;
-    }
-
-    #input-div, #a-esq-sen, #input-submit {
-        height: 44px;
     }
 }
 
@@ -49,26 +39,13 @@
 
     #login {
         flex-direction: row-reverse;
-        width: 95vw;
-        max-width: 1250px;
+        width: 93vw;
+        max-width: 1240px;
         height: 345px;
     }
 
     #imagem {
-        transform: translate(10px, -10px);
         width: 700px;
         height: 345px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 0px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 0px;
-    }
-
-    #input-div > input {
-        height: 40px;
-    }
-
-    #input-div, #a-esq-sen, #input-submit {
-        height: 44px;
     }
 }
